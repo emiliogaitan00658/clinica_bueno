@@ -1,0 +1,109 @@
+#seccionDientes
+{
+	background-color: #EEEEEE;
+	box-shadow: 0px 0px 2px black;
+	color: black;
+}
+
+.anchoComponenteGrande
+{
+	width: 450px;
+}
+
+.anchoComponenteMediano
+{
+	width: 350px;
+}
+
+
+.text
+{
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+	font-size: 15px;
+	height: 28px;
+	margin: 4px;
+	min-width: 0px;
+	padding: 5px;
+}
+
+.text:focus
+{
+	outline: none;
+	box-shadow: 0px 0px 2px blue;
+}
+
+.textDiente
+{
+	background-color: #d5eaf6;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+	font-size: 15px;
+	height: 30px;
+	width: 40px;
+	margin: 6px;
+	min-width: 0px;
+	padding: 8px;
+	text-align: center;
+}
+
+.textDiente:focus
+{
+	outline: none;
+	box-shadow: 0px 0px 2px blue;
+}
+
+.textArea
+{
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+	font-size: 15px;
+	margin: 4px;
+	padding: 5px;
+}
+.textArea:focus
+{
+	outline: none;
+	box-shadow: 0px 0px 2px blue;
+}
+
+.titulo
+{
+	background-color: #1570A6;
+	color: white;
+	font-size: 22px;
+	text-align: center;
+	width: 100%;
+}
+
+.anchoCompleto
+{
+	width: 34%;
+}
+
+.contenidoInterno
+{
+	margin: 4px;
+}
+
+.displayInlineBlockMiddle
+{
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.displayInlineBlockTop
+{
+	display: inline-block;
+	vertical-align: center;
+	/*margin-left: -34px;*/
+	margin-left: 0px;
+}
+
+.textAlignCenter
+{
+	text-align: center;
+}

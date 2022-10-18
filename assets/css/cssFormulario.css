@@ -1,0 +1,113 @@
+.formulario
+{
+	background-color: white;
+	border-radius: 2px;
+	width: 100%;
+	height:210px;
+}
+
+.formulario .tituloFormulario
+{
+	background-color: #2f323e;
+	color: white;
+	cursor: default;
+	font-size: 16px;
+	line-height: 35px;
+	margin: 0px;
+	text-align: center;
+	text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+	width: 100%;
+	user-select: none;
+}
+
+.formulario input[type=submit], .formulario input[type=button]
+{
+	background-color: #337ab7;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+	color: white;
+	font-size: 15px;
+	height: 20px;
+	margin: 2px;
+}
+
+.formulario input[type=submit]:hover, .formulario input[type=button]:hover
+{
+	background-color: #1497CC;
+	cursor: pointer;
+}
+
+.formulario input[type=submit]:focus, .formulario input[type=button]:focus
+{
+	outline: none;
+}
+
+.formulario input[type=text], .formulario input[type=password], .formulario input[type=date]
+{
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+	font-size: 14px;
+	height: 26px;
+	margin: 4px;
+	min-width: 10px;
+	padding: 5px;
+}
+.formulario input[type=text]:focus, .formulario input[type=password]:focus, .formulario input[type=date]:focus
+{
+	outline: none;
+	box-shadow: 0px 0px 2px blue;
+}
+
+.formulario [readonly=readonly]
+{
+	background-color: #EEEEEE;
+}
+
+.formulario select
+{
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.7);
+	font-size: 12px;
+	height: 32px;
+	width: 56%;
+	margin: 2px;
+	padding: 3px;
+}
+
+.formulario select:focus
+{
+	outline: none;
+	box-shadow: 0px 0px 2px blue;
+}
+
+.formulario .seccionBotones
+{
+	text-align: right;
+	width: 100%;
+}
+
+.labelGrande label:not([class*="noLabel"])
+{
+	display: inline-block;
+	width: 100px;
+}
+
+.labelMediano label:not([class*="noLabel"])
+{
+	display: inline-block;
+	width: 100px;
+}
+
+.labelPequenio label:not([class*="noLabel"])
+{
+	display: inline-block;
+	width: 120px;
+}
+
+.sombraFormulario
+{
+	box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.7);
+}

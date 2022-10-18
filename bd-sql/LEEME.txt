@@ -1,0 +1,12 @@
+1. Para configurar los archivos de conexion para la base de datos, es necesario hacerlo en el archivo que se encuentra 
+dentro de la carpeta class --> classconexion.php.
+
+2. Para configurar el respaldo y restauracion de la base de datos, es necesario hacerlo en los archivos backup.php y 
+restore.php que se encuentran en la carpeta raiz del sistema.
+
+ADMINISTRADOR GENERAL --> USER Y PASS = RUBENPAREDES (TIPO DE INGRESO ADMINISTRACION)
+ADMINISTRADOR SUCURSAL --> USER Y PASS = RUBENCHIRINOS (DEBE DE SELECCIONAR SUCURSAL)-(TIPO DE INGRESO ADMINISTRACION)
+SECRETARIA --> USER Y PASS = MARBELLAPEREDES (DEBE DE SELECCIONAR SUCURSAL)-(TIPO DE INGRESO ADMINISTRACION)
+CAJERO --> USER Y PASS = MARIANUBIA (DEBE DE SELECCIONAR SUCURSAL)-(TIPO DE INGRESO ADMINISTRACION)
+ESPECIALISTA --> USER Y PASS = 15377100 (DEBE DE SELECCIONAR SUCURSAL)-(TIPO DE INGRESO ESPECIALISTA
+paciente --> USER Y PASS = 1118543090 (TIPO DE INGRESO PACIENTE

@@ -1,0 +1,255 @@
+.diente
+{
+	box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+	background-color: black;
+	display: inline-block;
+	height: 39px;
+	margin: 6px;
+	position: relative;
+	vertical-align: middle;
+	width: 40px;
+}
+
+.diente > div:nth-child(1)
+{
+	 box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.2);
+	 border-right: 13px solid transparent;
+     border-top: 13px solid transparent;
+     border-left: 13px solid white;
+     border-bottom: 13px solid white;
+     height: 0px;
+	 position: absolute;
+	 width: 0px;
+	
+	 right: -28px;
+	 top: 6px !important;
+	 left: -12px !important;
+	 -webkit-transform: rotate(225deg);
+	 -moz-transform: rotate(225deg);
+	 -ms-transform: rotate(225deg);
+	 -o-transform: rotate(225deg);
+	 transform: rotate(225deg);
+}
+
+.diente > div:nth-child(2)
+{
+	 box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.2);
+	 border-right: 13px solid transparent;
+     border-top: 13px solid transparent;
+     border-left: 13px solid white;
+     border-bottom: 13px solid white;
+     height: 0px;
+	 position: absolute;
+	 width: 0px;
+	
+	right: -12px;
+	left: 7px;
+	top: -12px !important;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.diente > div:nth-child(3)
+{
+	box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.2);
+	border-right: 13px solid transparent;
+    border-top: 13px solid transparent;
+	border-left: 13px solid white;
+	border-bottom: 13px solid white;
+	height: 0px;
+	position: absolute;
+	width: 0px;
+	
+	right: -11px;
+	top: 7px !important;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.diente > div:nth-child(4)
+{
+	box-shadow: -2px 2px 1px rgba(0, 0, 0, 0.2);
+	 border-right: 13px solid transparent;
+     border-top: 13px solid transparent;
+     border-left: 13px solid white;
+     border-bottom: 13px solid white;
+     height: 0px;
+	 position: absolute;
+	 width: 0px;
+	
+	right: -52px;
+	left: 7px;
+	top: 25px !important;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+.diente > div:nth-child(5)
+{
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2), -1px 1px 1px rgba(0, 0, 0, 0.2), 1px -1px 1px rgba(0, 0, 0, 0.2), -1px -1px 1px rgba(0, 0, 0, 0.2);
+	background-color: white;
+	border: 1px solid black;
+	height: 20px;
+	left: 9px; 
+	position: absolute;
+	top: 9px; 
+	width: 20px;
+}
+
+.diente > div:nth-child(6)
+{
+	cursor: pointer;
+	font-size: 12px;
+	left: 10px;
+	position: absolute;
+	top: 40px;
+}
+
+.diente > div:nth-child(6):hover
+{
+	text-decoration: underline;
+}
+
+
+.dienteGeneral
+{
+	background-color: black;
+	cursor: pointer;
+	display: inline-block;
+	height: 149px;
+	margin: 13px;
+	position: relative;
+	vertical-align: middle;
+	width: 155px;
+}
+
+
+.dienteGeneral > div:nth-child(1)
+{
+	border-bottom: 105px solid white;
+	border-right: 105px solid transparent;
+	height: 0px;
+	position: absolute;
+	width: 0px;
+	
+	top: 22px !important;
+	left: -52px !important;
+	-webkit-transform: rotate(225deg);
+	-moz-transform: rotate(225deg);
+	-ms-transform: rotate(225deg);
+	-o-transform: rotate(225deg);
+	transform: rotate(225deg);
+}
+
+.dienteGeneral > div:nth-child(1):hover
+{
+	border-bottom: 105px solid #EEEEEE;
+}
+
+
+.dienteGeneral > div:nth-child(2)
+{
+	border-bottom: 105px solid white;
+	border-right: 105px solid transparent;
+	height: 0px;
+	position: absolute;
+	width: 0px;
+	
+	right: -12px;
+	left: 25px;
+	top: -52px !important;
+	-webkit-transform: rotate(-45deg);
+	-moz-transform: rotate(-45deg);
+	-ms-transform: rotate(-45deg);
+	-o-transform: rotate(-45deg);
+	transform: rotate(-45deg);
+}
+
+
+.dienteGeneral > div:nth-child(2):hover
+{
+	border-bottom: 105px solid #EEEEEE;
+}
+
+
+.dienteGeneral > div:nth-child(3)
+{
+	border-bottom: 105px solid white;
+	border-right: 105px solid transparent;
+	height: 0px;
+	position: absolute;
+	width: 0px;
+	
+	right: -52px;
+	top: 22px !important;
+	-webkit-transform: rotate(45deg);
+	-moz-transform: rotate(45deg);
+	-ms-transform: rotate(45deg);
+	-o-transform: rotate(45deg);
+	transform: rotate(45deg);
+}
+
+.dienteGeneral > div:nth-child(3):hover
+{
+	border-bottom: 105px solid #EEEEEE;
+}
+
+.dienteGeneral > div:nth-child(4)
+{
+	border-bottom: 105px solid white;
+	border-right: 105px solid transparent;
+	height: 0px;
+	position: absolute;
+	width: 0px;
+	
+	right: -52px;
+	left: 25px;
+	top: 96px !important;
+	-webkit-transform: rotate(135deg);
+	-moz-transform: rotate(135deg);
+	-ms-transform: rotate(135deg);
+	-o-transform: rotate(135deg);
+	transform: rotate(135deg);
+}
+
+.dienteGeneral > div:nth-child(4):hover
+{
+	border-bottom: 105px solid #EEEEEE;
+}
+
+
+.dienteGeneral > div:nth-child(5)
+{
+	background-color: white;
+	border: 1px solid black;
+	height: 70px;
+	left: 41px; 
+	position: absolute;
+	top: 39px; 
+	width: 70px;
+}
+
+.dienteGeneral > div:nth-child(5):hover
+{
+	background-color: #EEEEEE;
+}
+.dienteGeneral > input[id="txtIdentificadorDienteGeneral"]
+{
+	background-color: transparent;
+	border: none;
+	font-size: 20px;
+	left: 60px;
+	position: absolute;
+	top: -30px;
+	width: 50px;
+}
